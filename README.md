@@ -2,6 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+* live Preview of Website > https://netflix-by-nitish.netlify.app/
 ## Available Scripts
 
 In the project directory, you can run:
