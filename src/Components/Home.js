@@ -37,9 +37,7 @@ function Home() {
 
 
   const fetchNowPlaying = async () => {
-    const {
-      data: { results },
-    } = await axios.get(`${Url}/movie/${nowPlaying}?api_key=${Api_key}&page=2`);
+    const { data: { results }, } = await axios.get(`${Url}/movie/${nowPlaying}?api_key=${Api_key}&page=2`);
     setNowPlayingMovies(results);
   };
 
